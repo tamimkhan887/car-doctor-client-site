@@ -21,7 +21,7 @@ const Error404 = () => {
                 </p>
 
                 <Link to="/">
-                    <button className="btn btn-error btn-soft px-8 ">
+                    <button className="btn btn-error btn-soft px-8 animate-bounce ">
                         Back To Home
                     </button>
                 </Link>

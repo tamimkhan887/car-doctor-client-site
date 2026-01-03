@@ -18,7 +18,7 @@ const Slider = () => {
     };
 
     return (
-        <div className="relative w-full overflow-hidden rounded-lg h-[60vh] md:h-[70vh] lg:h-[80vh]">
+        <div className="relative w-full overflow-hidden rounded-lg h-[400px] md:h-[500px] lg:h-[600px]">
             {/* Slides */}
             <div
                 className="flex transition-transform duration-700 ease-in-out h-full"
@@ -45,7 +45,7 @@ const Slider = () => {
                         but the majority have suffered alteration.
                     </p>
 
-                    <div className="flex gap-4">
+                    <div className="flex gap-2 md:gap-4">
                         <button className="text-sm md:text-lg font-semibold text-white bg-[#FF3811] px-4  md:px-6 py-3 rounded">
                             Discover More
                         </button>

@@ -4,3 +4,6 @@
 .font-primary{
       font-family: "Inter", sans-serif;
 }
+.no-scroll{
+      overflow: hidden;
+}

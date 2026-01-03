@@ -22,6 +22,13 @@ const Navbar = () => {
             window.removeEventListener('resize', handleResize)
         }
     })
+    useEffect(()=>{
+        if(isOpen){
+            document.body.classList.add("no-scroll");
+        } else{
+            document.body.classList.remove("no-scroll")
+        }
+    }, [isOpen])
     const navLinks = <>
         <li className='text-[#444444] text-lg font-semibold'><NavLink>Home</NavLink></li>
         <li className='text-[#444444] text-lg font-semibold'><NavLink>About</NavLink></li>

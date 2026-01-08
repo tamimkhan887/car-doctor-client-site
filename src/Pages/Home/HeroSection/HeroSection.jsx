@@ -10,7 +10,7 @@ const HeroSection = () => {
             </div>
             <div className='space-y-4 md:space-y-6'>
                 <h4 className='text-[#FF3811] font-bold text-xl'>About Us</h4>
-                <h2 className='text-[#151515] font-bold text-5xl'>We are qualified <br className='hidden md:flex'/> & of experience <br className='hidden md:flex'/> in this field</h2>
+                <h2 className='text-[#151515] font-bold text-4xl md:text-5xl'>We are qualified <br className='hidden md:flex'/> & of experience <br className='hidden md:flex'/> in this field</h2>
                 <p className='text-[#737373] font-normal text-base'>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
                 <p className='text-[#737373] font-normal text-base'>The majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
                 <button className='bg-[#FF3811] px-6 py-3 font-semibold text-lg text-white rounded-lg'>Get More Info</button>

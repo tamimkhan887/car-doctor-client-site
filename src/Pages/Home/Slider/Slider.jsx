@@ -56,7 +56,6 @@ const Slider = () => {
                 </div>
             </div>
 
-            {/* Controls */}
             <div className="absolute right-4 md:right-10 bottom-6 flex gap-4">
                 <button
                     onClick={handlePrev}
